@@ -55,8 +55,27 @@ The project uses the following dependencies:
 
 ---
 ## application.properties
-server.port=8080
+- server.port=8080
+- spring.applicati on.name=API-GATEWAY
+- eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
 
-spring.application.name=API-GATEWAY
+---
 
-eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+## 🔄 Request Flow
+<img width="1536" height="1024" alt="ChatGPT Image Jul 4, 2026, 01_16_57 PM" src="https://github.com/user-attachments/assets/2ef2131e-e87f-43de-8999-32ae4618a672" />
+
+---
+
+## ▶ Running the Service
+
+## Clone Repository
+git clone https://github.com/yourusername/api-gateway.git
+
+## Move into Project
+cd api-gateway
+
+## Build Project
+mvn clean install
+
+## Run Application
+mvn spring-boot:run
