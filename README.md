@@ -22,6 +22,7 @@ The API Gateway is the entry point of the AI-Powered Job Portal microservices ar
 
 ## 🏗 Microservice Architecture
 
+<img width="1214" height="1295" alt="ChatGPT Image Jul 4, 2026, 01_20_26 PM" src="https://github.com/user-attachments/assets/bfaf8d5a-0949-4cff-849f-609e90e34588" />
 
 
 ----
